@@ -1,4 +1,6 @@
-FROM docker-registry.zalando/tsarnowski/zalando-java:8u31-1
+FROM zalando/openjdk:8u45-b14-2
+
+MANTAINER Zalando SE
 
 RUN apt-get update && apt-get install -y \
     unzip \
