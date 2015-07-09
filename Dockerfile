@@ -1,6 +1,6 @@
 FROM zalando/openjdk:8u45-b14-2
 
-MANTAINER Zalando SE
+MAINTAINER Zalando SE
 
 RUN apt-get update && apt-get install -y \
     unzip \
