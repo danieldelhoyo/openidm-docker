@@ -2,10 +2,14 @@
 Docker image for OpenIDM
 
 1. Create docker image:
+```bash
    $ docker build -t openidm .
+```
 
 2. Run it:
+```bash
    $ docker run -p 8443:8443 openidm
+```
 
 You can access openidm locally from the following endpoints:
 * Console (admin/admin): https://localhost:8443/system/console
